@@ -22,6 +22,9 @@
     # # "Hello, world!" when run.
     # pkgs.hello
 
+    # pkgs.neovim
+    # pkgs.postman
+    # pkgs.bun
     pkgs.golangci-lint
     pkgs.sqlite
 
