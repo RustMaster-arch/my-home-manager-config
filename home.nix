@@ -1,5 +1,8 @@
 { config, pkgs, ... }:
 
+let
+  unstable = import <nixpkgs-unstable> {};
+in
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
@@ -22,13 +25,13 @@
     # # "Hello, world!" when run.
     # pkgs.hello
 
-    # pkgs.neovim
-    # pkgs.postman
-    # pkgs.bun
-    pkgs.atac
-    pkgs.gosec
-    pkgs.golangci-lint
-    pkgs.sqlite
+    # unstable.neovim
+    # unstable.postman
+    # unstable.bun
+    unstable.atac
+    unstable.gosec
+    unstable.golangci-lint
+    unstable.sqlite
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
