@@ -25,6 +25,7 @@
     # pkgs.neovim
     # pkgs.postman
     # pkgs.bun
+    pkgs.gosec
     pkgs.golangci-lint
     pkgs.sqlite
 
