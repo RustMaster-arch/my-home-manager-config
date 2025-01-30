@@ -8,7 +8,7 @@ in
   # manage.
   home.username = "rustmaster";
   home.homeDirectory = "/home/rustmaster";
-
+  nixpkgs.config.allowUnfree = true;
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -28,10 +28,12 @@ in
     # unstable.neovim
     # unstable.postman
     # unstable.bun
+    unstable.zig
     unstable.atac
     unstable.gosec
     unstable.golangci-lint
     unstable.sqlite
+    unstable.pyprland
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
