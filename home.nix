@@ -25,7 +25,6 @@ in
     # # "Hello, world!" when run.
     # pkgs.hello
 
-    # unstable.neovim
     # unstable.postman
     # unstable.bun
     unstable.zig
