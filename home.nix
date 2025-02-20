@@ -30,7 +30,6 @@ in
     unstable.neovim
     # unstable.postman
     # unstable.bun
-    unstable.dioxus-cli
     unstable.zig
     unstable.atac
     unstable.gosec
